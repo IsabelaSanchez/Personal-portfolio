@@ -10,7 +10,7 @@ function Navbar() {
     const menuClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
     return (
-        <IconContext.Provider value={{ color: '#fff'}}>
+        <IconContext.Provider value={{ color: '#F8F9F8'}}>
         <div className="navbar">
             <div className="navbar-container">
                 <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>

@@ -1,0 +1,64 @@
+@import '../App.scss';
+.tech-skills{
+    background: $white;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 140px;
+    padding-bottom: 285px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+.classic-title{
+    font-family: 'Press Start 2P', cursive;
+    color:$purple;
+}
+.classic-p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 129%;
+    font-family: 'Dosis', sans-serif;
+}
+.tech-skills-container{
+    text-align: center;
+}
+.skills{
+    box-sizing: border-box;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+.skills-icon{
+    width: 65%;
+}
+.skill-item{
+    margin: 2%;
+}
+.just-one{
+    margin-bottom: 21%;
+}
+.HTML-icon{
+    width: 56%;
+}
+.JS-icon{
+    width: 61%;
+}
+.FB-icon{
+    width: 48%;
+}
+.SASS-icon{
+    width: 59%;
+}
+.FIGMA-icon{
+    width: 56%;
+}
+.GH-icon{
+    width: 59%;
+}
+.NJ-icon{
+    width: 49%;
+}
+.NPM-icon{
+    width: 76%;
+}

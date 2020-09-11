@@ -3,7 +3,6 @@ import './Projects.scss'
 import LOL from './assets/logoLOL.svg';
 import MOVES from './assets/logoMOVES.svg';
 import MDLINKS from './assets/logoMDLINKS.svg';
-import { Link } from 'react-router-dom';
 
 function Projects() {
     return (

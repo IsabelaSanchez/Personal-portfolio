@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import logo from './assets/logo.svg';
-import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.scss';
 import { IconContext } from 'react-icons/lib';
@@ -13,9 +12,9 @@ function Navbar() {
         <IconContext.Provider value={{ color: '#F8F9F8'}}>
         <div className="navbar">
             <div className="navbar-container">
-                <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
+                <a href='/' className="navbar-logo" onClick={closeMobileMenu}>
                     <img src={logo} className="navbar-icon" alt="logo" />
-                </Link>
+                </a>
                 <div className="menu-icon" onClick={menuClick}>
                     {click ? <FaTimes/> : <FaBars/>}
                 </div>

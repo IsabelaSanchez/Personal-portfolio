@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Projects() {
     return (
-        <div className='pricing__section'>
+        <div id="proyectos" className='pricing__section'>
         <div className='pricing__wrapper'>
             <div className="theheaderp">
             <h1 className='classic-title'>Mis Proyectos</h1>
@@ -21,8 +21,8 @@ function Projects() {
                 <a href="https://github.com/IsabelaSanchez/LIM012-data-lovers" className="p-button">Repositorio</a>
                 <a href="https://isabelasanchez.github.io/LIM012-data-lovers/src/" className="p-button">Web</a>
                 </div>
-                <h3>DATA LOVERS</h3>
-                <p>Proyecto manejando datos</p>
+                <h3 className="p-title">LOL QUERY</h3>
+                <p className="under-ptitle">Proyecto Data Lovers</p>
                 <ul className='pricing__container-features'>
                   <li>DOM</li>
                   <li>Manipulación de Arrays</li>
@@ -40,8 +40,8 @@ function Projects() {
                 <a href="https://github.com/IsabelaSanchez/LIM012-fe-social-network" className="p-button">Repositorio</a>
                 <a href="https://isabelasanchez.github.io/LIM012-fe-social-network/src/" className="p-button">Web</a>
                 </div>
-                <h3>MOVES: SIENTE EL RITMO</h3>
-                <p>Proyecto Red Social</p>
+                <h3 className="p-title">MOVES: SIENTE EL RITMO</h3>
+                <p className="under-ptitle">Proyecto Red Social</p>
                 <ul className='pricing__container-features'>
                   <li>MVC</li>
                   <li>SPA</li>
@@ -58,8 +58,8 @@ function Projects() {
                 <div className="button-group">
                 <a href="https://github.com/IsabelaSanchez/LIM012-fe-md-links" className="p-button">Repositorio</a>
                 </div>
-                <h3>MD-Links</h3>
-                <p>Proyecto crear mi libreria</p>
+                <h3 className="p-title">MD-LINKS</h3>
+                <p className="under-ptitle">Proyecto crear mi libreria</p>
                 <ul className='pricing__container-features'>
                   <li>Node.js</li>
                   <li>Jest</li>

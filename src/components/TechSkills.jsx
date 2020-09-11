@@ -16,7 +16,7 @@ import SoftSkills from './SoftSkills';
 
 function TechSkills() {
     return (
-        <div class='tech-skills'>
+        <div id="tech-skills" class='tech-skills'>
             <div className="tech-skills-container">
                 <div className='page-title'>
                 <h1 className='classic-title'>Tech Skills</h1>

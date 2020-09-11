@@ -4,7 +4,7 @@ import profile from './assets/profile.svg';
 
 function about() {
     return (
-        <div className='about'>
+        <div id="sobre-mi" className='about'>
             <div className='container-about'>
                 <h1 className='classic-title'>Sobre Mi</h1>
                 <p className='classic-p'>Líder - Feminista - Curiosa - Beatlemaníaca</p>

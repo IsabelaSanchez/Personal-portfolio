@@ -100,7 +100,6 @@
   }
   
   .pricing__container-features {
-    margin: 16px 0 32px;
     list-style: none;
   }
   
@@ -116,6 +115,13 @@
   
   .icon {
     margin: 24px 0;
+  }
+  .p-title{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+  .under-ptitle{
+    font-family: 'Dosis', sans-serif;
   }
   
   @media screen and (max-width: 960px) {

@@ -7,7 +7,7 @@ import { FaRegStar } from 'react-icons/fa';
 
 function SoftSkills() {
     return (
-        <div className="soft-skills">
+        <div id="softskills" className="soft-skills">
             <div className="soft-skills-container">
                 <h1 className='classic-title'>Soft Skills</h1>
                 <p className='classic-p'>Habilidades del siglo XXI. Mis habilidades blandas.</p>

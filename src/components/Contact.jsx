@@ -7,7 +7,7 @@ import { GrLinkedin } from 'react-icons/gr';
 
 function Contact() {
     return (
-        <div class="contact">
+        <div id="contacto"className="contact">
             <div className="contact-container">
                 <h1 className='classic-title'>Contactemos</h1>
                 <p className='classic-p'>¡Descubre más sobre mi!</p>

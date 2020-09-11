@@ -21,34 +21,34 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className="nav-item">
-                        <Link to='/' className="nav-links" onClick={closeMobileMenu}>
+                        <a href='#' className="nav-links" onClick={closeMobileMenu}>
                             HOME
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <Link to='/tech-skills' className="nav-links" onClick={closeMobileMenu}>
+                        <a href='#tech-skills' className="nav-links" onClick={closeMobileMenu}>
                             TECH SKILLS
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <Link to='/sobre-mi' className="nav-links" onClick={closeMobileMenu}>
+                        <a href='#sobre-mi' className="nav-links" onClick={closeMobileMenu}>
                             SOBRE MI
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <Link to='/soft-skills' className="nav-links" onClick={closeMobileMenu}>
+                        <a href="#softskills" className="nav-links" onClick={closeMobileMenu}>
                             SOFT SKILLS
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <Link to='/proyectos' className="nav-links" onClick={closeMobileMenu}>
+                        <a href="#proyectos" className="nav-links" onClick={closeMobileMenu}>
                             PROYECTOS
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <Link to='/contacto' className="nav-links" onClick={closeMobileMenu}>
+                        <a href="#contacto" className="nav-links" onClick={closeMobileMenu}>
                             CONTACTO
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>

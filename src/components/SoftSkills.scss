@@ -1,10 +1,37 @@
 @import '../App.scss';
 .soft-skills{
+    text-align: center;
     background: $white;
     background-size: cover;
     height: 100vh;
-    padding-top: 130px;
-    padding-bottom: 300px;
+    padding-top: 6%;
     padding-left: 0px;
     padding-right: 0px;
+}
+.skills-info-container{
+    display:flex;
+    margin: 2%;
+}
+.soft-skill-item{
+    display: flex;
+}
+.skill-header{
+    background-color: $blueblack;
+    color: $white;
+    font-size: 87%;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    display: flex;
+    padding: 3%;
+    justify-content: center;
+}
+.one-skill{
+    font-family: "Dosis", sans-serif;
+    margin: 3%;
+}
+.soft-skill-text{
+    padding: 4%;
+    color: $white;
+    background-color: $purple;
+    font-family: 'Dosis', sans-serif;
 }

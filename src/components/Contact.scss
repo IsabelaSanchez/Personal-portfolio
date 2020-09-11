@@ -1,10 +1,26 @@
 @import '../App.scss';
 .contact{
+    text-align: center;
     background: $white;
     background-size: cover;
     height: 100vh;
-    padding-top: 130px;
-    padding-bottom: 300px;
+    padding-top: 6%;
     padding-left: 0px;
     padding-right: 0px;
+}
+.contact-list{
+    font-family: 'Dosis', sans-serif;
+    margin: 2%;
+    font-size: 135%;
+}
+.contact-icon{
+    font-size: 135%;
+}
+.CVbutton{
+    background-color: $purple;
+    color:$white;
+    font-family: 'Press Start 2P', cursive;
+    padding:1%;
+    border-radius: 30%;
+    text-decoration: none;
 }

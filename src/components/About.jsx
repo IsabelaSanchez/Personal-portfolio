@@ -17,6 +17,7 @@ function about() {
                         internacionales que me formaron como líder. He estudiado música más de 4 años 
                         y trabajado legalmente en la UTP siendo menor de edad.
                         Mi aventura en el mundo del desarrollo web tiene para rato.
+                        Aspiro a ser fullstack y liderar equipos multidiciplinarios.
                         <p className="detallito2">¡Espero aprender mucho más!</p>
                     </div>
                 </div>

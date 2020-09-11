@@ -12,6 +12,7 @@ import JEST from './assets/logoJEST.svg';
 import NODEJS from './assets/logoNODEJS.svg';
 import REACTJS from './assets/logoREACTJS.svg';
 import SASS from './assets/logoSASS.svg';
+import SoftSkills from './SoftSkills';
 
 function TechSkills() {
     return (

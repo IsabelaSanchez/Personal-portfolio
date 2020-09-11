@@ -1,10 +1,40 @@
 @import '../App.scss';
 .about{
-    background: $purple;
+    background: $white;
     background-size: cover;
     height: 100vh;
-    padding-top: 130px;
-    padding-bottom: 300px;
+    padding-top: 6%;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.profile{
+    width:20%;
+}
+.container-about{
+    text-align: center;
+}
+.container-profile{
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    margin-top:2%;
+    display:flex;
+}
+.info-profile{
+    font-size: 125%;
+    text-align: left;
+    border: solid;
+    border-color: $blueblack;
+    color: $white;
+    background-color: $purple;
+    width: 50%;
+    padding: 1%;
+}
+
+.detallito2{
+    line-height: 124%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 110%;
+    text-align: center;
 }
